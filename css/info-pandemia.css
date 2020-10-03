@@ -1,0 +1,130 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #f9fcfb;
+    font-family: "Times New Roman", Times, serif ;
+}
+
+/* Editando o cabeçalho */
+.cabecalho{
+    background-image: url(../assets/img/transmissao-coronavirus.jpg) ;
+    background-repeat: no-repeat;
+    background-size: 100% ;
+    background-color: linear-gradient(#5abfb8, #80ccc6, #c1e6e2); 
+    text-align: center;
+    padding: 8px; 
+}
+
+.cabecalho-icone{
+    width: 100px; 
+    display: inline-block; 
+}
+
+/* Barra de navegação */
+
+.navegacao{
+    text-align: center;
+    padding: 15px;
+    background-image: linear-gradient( #c1e6e2, #f9fcfb );
+}
+
+a{
+    text-decoration: none;
+}
+
+a:link, a:visited{
+    color: black;
+    padding: 8px 12px;
+}
+
+a:hover{
+    color: #1e82b4; 
+}
+
+/* Corpo da pagina */
+
+.area-principal{
+    margin: 15px;
+    padding: 10px;
+    float: left;
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    text-align: justify;
+}
+
+.imagem{
+    width: 190px;
+    float: right; 
+    padding: 10px;
+}
+
+.extra{
+    width: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: green 3px solid;
+    position: relative;
+    left: 70px;
+}
+
+.meio{
+    float: left;
+}
+
+/* Organizando as imagens */
+
+.icons{
+    width: 100px; 
+}
+
+.icon{
+    width: 80px;
+    float: left;
+    padding:10px;
+}
+
+.galeria{
+    width: 200px;
+    margin: 7px; 
+    float: left;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.desc{
+    padding: 16px 32px;
+    background-color: #ffe4c4;
+    color: black;
+    font-size: 15px;
+    text-align: center;
+}
+
+
+/* Pagina de Medidas prevençao */
+
+.inform{
+    width: 415px;
+}
+
+.galery{
+    margin: 7px; 
+    float: right;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.toicons{
+    width: 200px;
+    margin: 7px; 
+    float: left;
+    background-color: #b4f0e8;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#thelast{
+    float: left;
+}

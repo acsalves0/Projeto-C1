@@ -1,0 +1,106 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #f9fcfb;
+    font-family: "Times New Roman", Times, serif ;
+
+}
+
+/* Editando o cabeçalho */
+.cabecalho{
+    background-image: url(../assets/img/transmissao-coronavirus.jpg) ;
+    background-repeat: no-repeat;
+    background-size: 100% ;
+    text-align: center;
+    padding: 8px; 
+}
+
+.cabecalho-icone{
+    width: 100px; 
+    display: inline-block; 
+}
+
+/* Barra de navegação */
+
+#navegacao{
+    text-align: center;
+    padding: 15px;
+    background-image: linear-gradient( #c1e6e2, #f9fcfb );   
+}
+
+a{
+    text-decoration: none;
+}
+
+#navegacao a:link, #navegacao a:visited{
+    color: black;
+    padding: 8px 12px;
+}
+
+#navegacao a:hover{
+    color: #1e82b4; 
+}
+
+/* Corpo da pagina */
+
+a:link, a:visited{
+    color: #1e82b4;
+}
+
+a:hover{
+    color: #70ce9f;
+}
+
+h1{
+    text-align: center;
+}
+
+.area-principal{
+    margin: 0px;
+    padding: 10px;
+    float: left;
+}
+
+table{
+    text-align: center;
+    border-collapse: collapse;
+    background-color: white; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+}
+
+th, td{
+    padding: 15px;
+}
+
+th{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    background: linear-gradient(to bottom, #242424 0%, #424242 100%);
+    color: white;
+}
+
+.municipio{
+    background-color: #d3d3d3;
+}
+
+
+.news{
+    padding: 3px;
+    text-align: center;
+    background: linear-gradient( #f9fcfb , #ebfffd, #f9fcfb);  
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+
+.info{
+    padding: 5px;
+    margin: 5px;
+    text-align: justify;
+}
+
+.organ{
+    /* border: red 1px solid; */
+    margin-top: 10px;
+    margin-left: 15px; 
+    float: left;  
+} 
+
